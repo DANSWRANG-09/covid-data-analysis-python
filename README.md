@@ -74,4 +74,4 @@ GitHub: https://github.com/DANSWRANG-09
 
 ## 📄 License
 
-MIT License
+MIT  [LICENSE]License
