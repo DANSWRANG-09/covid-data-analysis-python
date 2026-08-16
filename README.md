@@ -34,7 +34,7 @@ vs. reported case rate.
   capita — a reminder that "confirmed cases" measures detection as much
   as spread.
 
-Full numbers are in [`outputs/summary_report.txt`](outputs/summary_report.txt)
+Full numbers are in [`outputs/summary_report.txt`](output/summary_report.txt)
 after running the script.
 
 ## Project structure
