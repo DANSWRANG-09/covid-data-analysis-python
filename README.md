@@ -1,88 +1,77 @@
 # COVID-19 Global Data Analysis
 
-A Python data analysis project that cleans, merges, and explores two
-COVID-19 datasets to uncover country- and continent-level patterns in
-case counts, mortality, recovery, and testing intensity.
+A simple Python data analysis project exploring COVID-19 cases, deaths, recoveries, population, and testing data across countries.
 
-## What it does
+## 📊 What I Did
 
-- **Cleans and merges** two raw CSVs (case/death/recovery counts +
-  population/testing/continent data) into one tidy dataset, resolving
-  country-name mismatches between sources (e.g. `USA` vs `US`).
-- **Derives new metrics**: case fatality rate, recovery rate, cases per
-  1M population, and tests per confirmed case.
-- **Generates 5 charts** (saved as PNGs) and a text summary report.
+- Cleaned and merged COVID-19 datasets
+- Analyzed cases, deaths, and recoveries
+- Calculated useful metrics
+- Compared countries and continents
+- Created charts to visualize the results
 
-## Sample output
+## 🛠️ Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+
+## 📈 Key Analysis
+
+- Total COVID-19 cases by country
+- Deaths and recoveries
+- Case Fatality Rate
+- Cases per 1M population
+- Testing intensity
+- Country and continent comparisons
+
+## 📊 Sample Output
 
 ![Top countries by cases](output/top_countries_by_cases.png)
 
-More charts are generated in `output/`: cases by continent, deaths by
-WHO region, case-fatality-rate vs. recovery-rate, and testing intensity
-vs. reported case rate.
+The project also generates charts for:
 
-## Key findings (from this snapshot of the data)
+- Cases by continent
+- Deaths by WHO region
+- Case Fatality Rate vs Recovery Rate
+- Testing vs Reported Cases
 
-- Global case fatality rate: **3.97%**, recovery rate: **57.45%**.
-- The US, Brazil, and India account for the largest shares of confirmed
-  cases in the dataset.
-- Reported case-fatality rates vary enormously by country (from well
-  under 1% to over 15% among countries with 5,000+ cases), reflecting
-  differences in testing coverage, healthcare capacity, and reporting
-  methodology rather than the virus itself.
-- Countries that test more per capita tend to report more cases per
-  capita — a reminder that "confirmed cases" measures detection as much
-  as spread.
+## 🎯 Key Insights
 
-Full numbers are in [`output/summary_report.txt`](output/summary_report.txt)
-after running the script.
+- The US, Brazil, and India have the largest shares of confirmed cases in the dataset.
+- The global case fatality rate is **3.97%**.
+- The global recovery rate is **57.45%**.
+- Countries with higher testing levels tend to report more cases per capita.
 
-## Project structure
+## 📁 Project Structure
 
-```
-covid19-data-analysis/
+```text
+covid-data-analysis-python/
+│
 ├── data/
-│   ├── country_wise_latest.csv   # cases, deaths, recovery by country
-│   └── worldometer_data.csv      # population, testing, continent by country
-├── data_cleaning.py              # load, clean, and merge the two datasets
-├── analysis.py                   # EDA, chart generation, summary report
-├── outputs/                      # generated charts + summary_report.txt
+├── output/
+├── data_cleaning.py
+├── analysis.py
 ├── requirements.txt
 └── README.md
 ```
 
-## How to run
+## 🚀 How to Run
 
 ```bash
-git clone https://github.com/<your-username>/covid19-data-analysis.git
-cd covid19-data-analysis
+git clone https://github.com/DANSWRANG-09/covid-data-analysis-python.git
+cd covid-data-analysis-python
 pip install -r requirements.txt
 python analysis.py
 ```
 
-This prints a summary report to the console and writes it, along with
-5 chart images, to `outputs/`.
+## 👨‍💻 Author
 
-## Tech stack
+**Danswrang Narzary**
 
-- **pandas** — data cleaning, merging, aggregation
-- **numpy** — numeric operations
-- **matplotlib** — visualization
+GitHub: https://github.com/DANSWRANG-09
 
-## Data source
+## 📄 License
 
-Both CSVs are point-in-time COVID-19 snapshots (case/death/recovery
-counts and population/testing figures by country), commonly distributed
-as a Kaggle dataset. They are included in `data/` so the project runs
-out of the box.
-
-## Possible extensions
-
-- Add a time-series version using daily case data instead of a single
-  snapshot.
-- Build an interactive dashboard (e.g. with Streamlit or Plotly Dash).
-- Add unit tests for the cleaning/merge logic in `data_cleaning.py`.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+MIT License
