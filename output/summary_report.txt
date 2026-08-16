@@ -1,0 +1,29 @@
+COVID-19 GLOBAL DATA ANALYSIS - SUMMARY REPORT
+==================================================
+Countries analyzed: 187
+Global confirmed cases: 16,480,485
+Global deaths: 654,036
+Global recovered: 9,468,087
+Global case fatality rate: 3.97%
+Global recovery rate: 57.45%
+
+Top 5 countries by confirmed cases:
+  - US: 4,290,259 cases, 148,011 deaths
+  - Brazil: 2,442,375 cases, 87,618 deaths
+  - India: 1,480,073 cases, 33,408 deaths
+  - Russia: 816,680 cases, 13,334 deaths
+  - South Africa: 452,529 cases, 7,067 deaths
+
+Lowest case fatality rate (countries with 5,000+ cases):
+  - Singapore: 0.05%
+  - Qatar: 0.15%
+  - Nepal: 0.26%
+  - Bahrain: 0.36%
+  - Ghana: 0.5%
+
+Highest case fatality rate (countries with 5,000+ cases):
+  - United Kingdom: 15.19%
+  - Belgium: 14.79%
+  - Italy: 14.26%
+  - France: 13.71%
+  - Netherlands: 11.53%
