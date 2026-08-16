@@ -15,9 +15,9 @@ case counts, mortality, recovery, and testing intensity.
 
 ## Sample output
 
-![Top countries by cases](outputs/top_countries_by_cases.png)
+![Top countries by cases](output/top_countries_by_cases.png)
 
-More charts are generated in `outputs/`: cases by continent, deaths by
+More charts are generated in `output/`: cases by continent, deaths by
 WHO region, case-fatality-rate vs. recovery-rate, and testing intensity
 vs. reported case rate.
 
@@ -34,7 +34,7 @@ vs. reported case rate.
   capita — a reminder that "confirmed cases" measures detection as much
   as spread.
 
-Full numbers are in [`outputs/summary_report.txt`](output/summary_report.txt)
+Full numbers are in [`output/summary_report.txt`](output/summary_report.txt)
 after running the script.
 
 ## Project structure
